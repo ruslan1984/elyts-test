@@ -1,0 +1,15 @@
+.newsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.newsTitle {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .newsList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
